@@ -1,7 +1,7 @@
 # 개요
 * Dive를 사용한 Docker 이미지 최적화
 
-# Dive 설치 
+# Dive 사용하기 
 ```sh
    https://github.com/wagoodman/dive  
 ```
@@ -21,7 +21,7 @@ dive <your-image-tag>
 dive nginx:latest
 ```
 
-* 도커 데스크탑 플러그인 사용
+# 도커 데스크탑 플러그인 사용
 ```sh
 # 설치 
 Extensions 메뉴 -> dive in 검색 -> Install 
