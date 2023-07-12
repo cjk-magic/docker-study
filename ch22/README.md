@@ -1,6 +1,11 @@
 # 개요
 * Dive를 사용한 Docker 이미지 최적화
 
+# history 사용하기 
+```sh
+docker history --human --format "{{.CreatedBy}}: {{.Size}}" test3
+```
+
 # Dive 사용하기 
 ```sh
    https://github.com/wagoodman/dive  
@@ -29,4 +34,3 @@ Extensions 메뉴 -> dive in 검색 -> Install
 # 사용
 Dive In 메뉴 -> 도커 이미지 선택 및 분석 진행 
 ```
-
