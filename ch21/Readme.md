@@ -6,7 +6,7 @@
 * 이미지 생성
 ```sh
 docker build -t test1 -f multi_stage.Dockerfile .
-docker build -t test2 -f one_stage.Dockerfile .
+docker build -t test2 -f single_stage.Dockerfile .
 ```
 
 * 이미지 확인
