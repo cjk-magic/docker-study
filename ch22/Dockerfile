@@ -2,6 +2,7 @@ FROM ubuntu:20.04
 #SSH 서버 설치
 RUN apt-get update
 RUN apt-get install -y ssh openssh-server 
+RUN apt-get install -y git
 RUN mkdir /var/run/sshd
 RUN apt-get clean
 #root 암호 설정
