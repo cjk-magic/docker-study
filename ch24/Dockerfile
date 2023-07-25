@@ -1,4 +1,4 @@
-FROM alpine:3.10
+FROM busybox
 
 WORKDIR /app
 COPY file.txt .
