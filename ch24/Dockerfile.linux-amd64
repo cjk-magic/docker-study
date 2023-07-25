@@ -1,4 +1,4 @@
-FROM diamol/base:linux-amd64
+FROM amd64/alpine
 
 WORKDIR /app
 COPY file.txt .
