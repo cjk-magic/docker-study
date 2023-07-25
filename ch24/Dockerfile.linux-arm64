@@ -1,0 +1,8 @@
+FROM arm64v8/alpine
+
+WORKDIR /app
+COPY file.txt .
+
+CMD echo "Built as: linux/arm64" && \ 
+    uname -a && \
+    ls /app

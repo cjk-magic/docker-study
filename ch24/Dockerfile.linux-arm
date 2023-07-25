@@ -1,0 +1,8 @@
+FROM arm32v7/alpine
+
+WORKDIR /app
+COPY file.txt .
+
+CMD echo "Built as: linux/arm32" && \ 
+    uname -a && \
+    ls /app
